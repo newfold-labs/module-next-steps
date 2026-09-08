@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1788279731">
-  <project timestamp="1788279731">
+<coverage generated="1788879207">
+  <project timestamp="1788879207">
     <file name="/home/runner/work/wp-module-next-steps/wp-module-next-steps/includes/DTOs/Plan.php">
       <class name="NewfoldLabs\WP\Module\NextSteps\DTOs\Plan" namespace="global">
         <metrics complexity="87" methods="30" coveredmethods="16" conditionals="0" coveredconditionals="0" statements="182" coveredstatements="139" elements="212" coveredelements="155"/>
@@ -1772,20 +1772,20 @@
     </file>
     <file name="/home/runner/work/wp-module-next-steps/wp-module-next-steps/includes/TaskCompletionTriggers.php">
       <class name="NewfoldLabs\WP\Module\NextSteps\TaskCompletionTriggers" namespace="global">
-        <metrics complexity="123" methods="51" coveredmethods="15" conditionals="0" coveredconditionals="0" statements="316" coveredstatements="155" elements="367" coveredelements="170"/>
+        <metrics complexity="123" methods="51" coveredmethods="13" conditionals="0" coveredconditionals="0" statements="316" coveredstatements="130" elements="367" coveredelements="143"/>
       </class>
-      <line num="101" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
-      <line num="103" type="stmt" count="1"/>
-      <line num="104" type="stmt" count="1"/>
-      <line num="105" type="stmt" count="1"/>
-      <line num="106" type="stmt" count="1"/>
-      <line num="107" type="stmt" count="1"/>
-      <line num="108" type="stmt" count="1"/>
-      <line num="109" type="stmt" count="1"/>
-      <line num="110" type="stmt" count="1"/>
-      <line num="111" type="stmt" count="1"/>
-      <line num="112" type="stmt" count="1"/>
-      <line num="113" type="stmt" count="1"/>
+      <line num="101" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="103" type="stmt" count="0"/>
+      <line num="104" type="stmt" count="0"/>
+      <line num="105" type="stmt" count="0"/>
+      <line num="106" type="stmt" count="0"/>
+      <line num="107" type="stmt" count="0"/>
+      <line num="108" type="stmt" count="0"/>
+      <line num="109" type="stmt" count="0"/>
+      <line num="110" type="stmt" count="0"/>
+      <line num="111" type="stmt" count="0"/>
+      <line num="112" type="stmt" count="0"/>
+      <line num="113" type="stmt" count="0"/>
       <line num="121" type="method" name="register_product_hooks_and_validators" visibility="private" complexity="1" crap="2" count="0"/>
       <line num="123" type="stmt" count="0"/>
       <line num="125" type="stmt" count="0"/>
@@ -1799,14 +1799,14 @@
       <line num="149" type="stmt" count="0"/>
       <line num="150" type="stmt" count="0"/>
       <line num="151" type="stmt" count="0"/>
-      <line num="159" type="method" name="has_enabled_payment_gateways" visibility="private" complexity="4" crap="4.37" count="2"/>
+      <line num="159" type="method" name="has_enabled_payment_gateways" visibility="private" complexity="4" crap="9.83" count="2"/>
       <line num="161" type="stmt" count="2"/>
-      <line num="162" type="stmt" count="0"/>
-      <line num="168" type="stmt" count="2"/>
-      <line num="169" type="stmt" count="2"/>
+      <line num="162" type="stmt" count="2"/>
+      <line num="168" type="stmt" count="0"/>
+      <line num="169" type="stmt" count="0"/>
       <line num="170" type="stmt" count="0"/>
-      <line num="174" type="stmt" count="2"/>
-      <line num="177" type="stmt" count="2"/>
+      <line num="174" type="stmt" count="0"/>
+      <line num="177" type="stmt" count="0"/>
       <line num="186" type="method" name="register_blog_hooks_and_validators" visibility="private" complexity="1" crap="2" count="0"/>
       <line num="188" type="stmt" count="0"/>
       <line num="190" type="stmt" count="0"/>
@@ -1885,11 +1885,11 @@
       <line num="346" type="stmt" count="0"/>
       <line num="347" type="stmt" count="0"/>
       <line num="348" type="stmt" count="0"/>
-      <line num="364" type="method" name="on_product_creation" visibility="public" complexity="4" crap="4.25" count="2"/>
-      <line num="366" type="stmt" count="2"/>
-      <line num="367" type="stmt" count="0"/>
-      <line num="370" type="stmt" count="2"/>
-      <line num="372" type="stmt" count="2"/>
+      <line num="364" type="method" name="on_product_creation" visibility="public" complexity="4" crap="6.00" count="1"/>
+      <line num="366" type="stmt" count="1"/>
+      <line num="367" type="stmt" count="1"/>
+      <line num="370" type="stmt" count="0"/>
+      <line num="372" type="stmt" count="0"/>
       <line num="381" type="method" name="validate_product_creation_state" visibility="public" complexity="3" crap="12" count="0"/>
       <line num="383" type="stmt" count="0"/>
       <line num="384" type="stmt" count="0"/>
@@ -1902,25 +1902,25 @@
       <line num="394" type="stmt" count="0"/>
       <line num="395" type="stmt" count="0"/>
       <line num="397" type="stmt" count="0"/>
-      <line num="407" type="method" name="register_payment_gateway_hooks" visibility="public" complexity="5" crap="5.27" count="1"/>
-      <line num="409" type="stmt" count="1"/>
+      <line num="407" type="method" name="register_payment_gateway_hooks" visibility="public" complexity="5" crap="30" count="0"/>
+      <line num="409" type="stmt" count="0"/>
       <line num="410" type="stmt" count="0"/>
-      <line num="414" type="stmt" count="1"/>
-      <line num="415" type="stmt" count="1"/>
+      <line num="414" type="stmt" count="0"/>
+      <line num="415" type="stmt" count="0"/>
       <line num="416" type="stmt" count="0"/>
-      <line num="419" type="stmt" count="1"/>
-      <line num="422" type="stmt" count="1"/>
-      <line num="423" type="stmt" count="1"/>
-      <line num="424" type="stmt" count="1"/>
-      <line num="437" type="method" name="validate_payment_setup_state" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="438" type="stmt" count="2"/>
+      <line num="419" type="stmt" count="0"/>
+      <line num="422" type="stmt" count="0"/>
+      <line num="423" type="stmt" count="0"/>
+      <line num="424" type="stmt" count="0"/>
+      <line num="437" type="method" name="validate_payment_setup_state" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="438" type="stmt" count="0"/>
       <line num="451" type="method" name="on_product_published" visibility="public" complexity="3" crap="3" count="2"/>
       <line num="453" type="stmt" count="2"/>
       <line num="455" type="stmt" count="1"/>
-      <line num="466" type="method" name="on_payment_gateway_updated" visibility="public" complexity="4" crap="6.00" count="1"/>
-      <line num="468" type="stmt" count="1"/>
+      <line num="466" type="method" name="on_payment_gateway_updated" visibility="public" complexity="4" crap="20" count="0"/>
+      <line num="468" type="stmt" count="0"/>
       <line num="469" type="stmt" count="0"/>
-      <line num="473" type="stmt" count="1"/>
+      <line num="473" type="stmt" count="0"/>
       <line num="475" type="stmt" count="0"/>
       <line num="492" type="method" name="on_blog_post_published" visibility="public" complexity="4" crap="4" count="2"/>
       <line num="494" type="stmt" count="2"/>
@@ -2141,7 +2141,7 @@
       <line num="1166" type="stmt" count="1"/>
       <line num="1167" type="stmt" count="1"/>
       <line num="1170" type="stmt" count="1"/>
-      <metrics loc="1173" ncloc="654" classes="1" methods="51" coveredmethods="15" conditionals="0" coveredconditionals="0" statements="316" coveredstatements="155" elements="367" coveredelements="170"/>
+      <metrics loc="1173" ncloc="654" classes="1" methods="51" coveredmethods="13" conditionals="0" coveredconditionals="0" statements="316" coveredstatements="130" elements="367" coveredelements="143"/>
     </file>
     <file name="/home/runner/work/wp-module-next-steps/wp-module-next-steps/includes/TaskStateValidator.php">
       <class name="NewfoldLabs\WP\Module\NextSteps\TaskStateValidator" namespace="global">
@@ -2196,6 +2196,6 @@
       <line num="27" type="stmt" count="0"/>
       <metrics loc="58" ncloc="49" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="11" coveredelements="0"/>
     </file>
-    <metrics files="15" loc="5896" ncloc="3509" classes="14" methods="222" coveredmethods="82" conditionals="0" coveredconditionals="0" statements="1886" coveredstatements="904" elements="2108" coveredelements="986"/>
+    <metrics files="15" loc="5896" ncloc="3509" classes="14" methods="222" coveredmethods="80" conditionals="0" coveredconditionals="0" statements="1886" coveredstatements="879" elements="2108" coveredelements="959"/>
   </project>
 </coverage>
